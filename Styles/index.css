@@ -102,3 +102,67 @@ a {
     display: none;
   }
 }
+
+/* Styles */
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: var(--clr-yellow);
+  display: grid;
+  place-content: center;
+}
+
+.card-container {
+  max-width: 27rem;
+  padding: var(--space-400);
+  margin-inline: auto;
+}
+
+.card {
+  margin-inline: auto;
+  border: 0.0625rem solid var(--clr-gray-950);
+  background: var(--clr-white);
+  padding: var(--space-400);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-400);
+  box-shadow: 0.5rem 0.5rem var(--clr-gray-950);
+}
+
+.card-image {
+  border-radius: 0.625rem;
+  height: 12.5rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
+}
+
+.card-desc {
+  color: var(--clr-gray-500);
+}
+
+.card-author {
+  display: flex;
+  gap: var(--space-300);
+  align-items: center;
+}
+
+.card-author-avatar {
+  width: 2rem;
+  aspect-ratio: 1;
+}
+
+@media (max-width:400px) {
+  :root {
+    --fs-100: 0.75rem;
+    --fs-200: 0.875rem;
+    --fs-300: 1.25rem;
+  }
+}
