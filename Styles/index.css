@@ -4,17 +4,17 @@
   --clr-gray-500: hsl(0, 0%, 42%);
   --clr-gray-950: hsl(0, 0%, 7%);
 
-  --fs-100: 1.75rem;
-  --fs-200: 2rem;
-  --fs-300: 3rem;
+  --fs-100: 0.875rem;
+  --fs-200: 1rem;
+  --fs-300: 1.5rem;
   --fw-regular: 500;
   --fw-bold: 800;
   --ff-primary: "Figtree", sans-serif;
 
-  --space-100: 0.5rem;
-  --space-200: 1rem;
-  --space-300: 1.5rem;
-  --space-400: 3rem;
+  --space-100: 0.25rem;
+  --space-200: 0.5rem;
+  --space-300: 0.75rem;
+  --space-400: 1.5rem;
 }
 
 body {
@@ -102,18 +102,3 @@ a {
     display: none;
   }
 }
-
-/*  */
-
-.card-container {
-  max-width: 27rem;
-  padding: 1.5rem;
-  margin-inline: auto;
-}
-
-.card {
-  margin-inline: auto;
-  background: #000;
-}
-
-
