@@ -131,9 +131,18 @@ body {
   box-shadow: 0.5rem 0.5rem var(--clr-gray-950);
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .card-title {
+  color: var(--clr-yellow);
+  transition: color ease 0.35s;
+}
+
 .card-label {
   padding: var(--space-100) var(--space-300);
-  background:var(--clr-yellow);
+  background: var(--clr-yellow);
   width: max-content;
   border-radius: 0.25rem;
 }
@@ -166,7 +175,7 @@ body {
   aspect-ratio: 1;
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   :root {
     --fs-100: 0.75rem;
     --fs-200: 0.875rem;
