@@ -131,6 +131,13 @@ body {
   box-shadow: 0.5rem 0.5rem var(--clr-gray-950);
 }
 
+.card-label {
+  padding: var(--space-100) var(--space-300);
+  background:var(--clr-yellow);
+  width: max-content;
+  border-radius: 0.25rem;
+}
+
 .card-image {
   border-radius: 0.625rem;
   height: 12.5rem;
